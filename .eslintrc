@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 2017
+  },
+  "extends": ["plugin:vue/recommended"],
+  "plugins":[
+    "vue"
+  ],
+  "globals": {
+    "applicationCache": false,
+    "atob": false,
+    "btoa": false,
+    "console": false,
+    "document": false,
+    "location": false,
+    "window": false
+  },
+  "rules": {
+    "vue/html-indent": ["error", 4]
+  }
+}
